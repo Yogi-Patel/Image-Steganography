@@ -4,7 +4,7 @@ import cv2
 import numpy 
 from numpy import asarray 
 import random 
-from twofish import Twofish
+#from twofish import Twofish
 import re
 from PIL import Image
 from datetime import date
