@@ -50,3 +50,9 @@ Note: Using a higher mode will have more impact on the image quality of the cove
 This command-line program is not fool-proof. 
 This program was made with modularity in mind. So, if you need to make changes to the interface (i.e., the command-line), you can easily do so. 
 You just need to know the working of the individual modules and you need to call them in the right order to carry out the image-steganography. 
+
+
+# Update:
+Installing Twofish is a painful now because if you try to install it using pip, it will throw an error saying : "Microsoft Visual C++ 14.0 or greater is required."
+That is 6GBs and I do not have that much space. So, that is not included in the Pipfile and I have commented that out from the import statements. 
+You will not be able to use the Twofish methods unless you install it. 
