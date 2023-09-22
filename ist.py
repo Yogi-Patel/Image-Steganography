@@ -363,7 +363,7 @@ def help():
     print("__Embed with Twofish Ecryption__")
     print("usage: -ET image_name_with_ext  file_containing_message  save_steg_image_as")
     print("NOTE: This mode generates it's own key and saves it to file Key.txt")
-    print("\tEach key is stored in teh Key_backup.txt file \n")
+    print("\tEach key is stored in the Key_backup.txt file \n")
     
     print("__Extract Twofish Encrypted Message__ ")
     print("usage: -DT image_name_with_ext key[.txt] [--savetofile]")
