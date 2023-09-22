@@ -1,4 +1,5 @@
 import sys 
+from skimage import io
 import cv2
 import numpy 
 from numpy import asarray 
