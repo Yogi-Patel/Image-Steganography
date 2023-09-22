@@ -353,6 +353,7 @@ def extract_image(image, dest, mode):
 
 
 def help():
+    print()
     print("__Simple Embed__")
     print("usage: -E image_name_with_ext  file_containing_message  save_steg_image_as \n")
 
@@ -375,11 +376,12 @@ def help():
     print("NOTE: The key size should be between 0 and 32 \n")
 
     print("__Embed an Image Inside Another Image__")
-    print("usage: -IE image_name_with_ext image_to_hide_with_ext  mode(1,2 or 4) \n")
+    print("usage: -IE image_name_with_ext image_to_hide_with_ext  mode(1,2 or 4)")
+    print("mode is necessary \n")
 
     print("__Extract Image Hidden in Another Image__")
-    print("usage: -ID image_name_with_ext save_extracted_as_with_ext mode(1,2 or 4) \n\n")
-
+    print("usage: -ID image_name_with_ext save_extracted_as_with_ext mode(1,2 or 4)")
+    print("It is important to know what mode was used \n\n")
 
     print("ALL FILES SHOULD BE IN THE SAME LOCATION AS THE PROGRAM")
     print('MAKE SURE ALL FILE EXTENSIONS ARE PROVIDED CORRECTLY WITH THE FILENAME')
